@@ -1,0 +1,31 @@
+services:
+
+  principal:
+    build:
+      context: .
+    volumes:
+      - ../output:/home/latex/output
+      - ../tex:/home/latex/tex
+    stdin_open: true
+    tty: true
+    command: 
+      - /bin/bash
+      - -c
+      - |
+        ../texpdf.sh principal
+
+
+
+  ata:
+    build:
+      context: .
+    volumes:
+      - ../output:/home/latex/output
+      - ../tex:/home/latex/tex
+    stdin_open: true
+    tty: true
+    command: 
+      - /bin/bash
+      - -c
+      - |
+        ../texpdf.sh ata

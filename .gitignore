@@ -1,4 +1,4 @@
-Texto/build/*
-!Texto/build/principal.pdf
-!Texto/build/ficha.pdf
-!Texto/build/ata.pdf
+LaTex/output/*
+!LaTex/output/principal.pdf
+!LaTex/output/ficha.pdf
+!LaTex/output/ata.pdf

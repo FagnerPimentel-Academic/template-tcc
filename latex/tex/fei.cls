@@ -510,7 +510,7 @@
   \setcounter{page}{1}
   \thispagestyle{empty}
   \begin{center}
-    \uppercase\expandafter{\@author}\\
+    \uppercase\expandafter{\@author}
     \vspace*{0.45\textheight}
     \textbf{\MakeUppercase{\@title}}\ifthenelse{\isundefined{\@subtitulo}}{}{: \@subtitulo}
     \vfill

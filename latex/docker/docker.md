@@ -1,4 +1,4 @@
-Para compilar o documento, entre neste diretório e execute o seguinte comando:
+ddPara compilar o documento, entre neste diretório e execute o seguinte comando:
 
 ```bash
 docker compose up
