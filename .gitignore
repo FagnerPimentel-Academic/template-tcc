@@ -1,4 +1,4 @@
-LaTex/output/*
-!LaTex/output/principal.pdf
-!LaTex/output/ficha.pdf
-!LaTex/output/ata.pdf
+latex/output/*
+!latex/output/principal.pdf
+!latex/output/ficha.pdf
+!latex/output/ata.pdf
