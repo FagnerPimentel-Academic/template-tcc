@@ -6,16 +6,14 @@ services:
     volumes:
       - ../output:/output
       - ../tex:/tex
+      - ../.devcontainer/build:/build
     stdin_open: true
     tty: true
     command: 
       - /bin/bash
       - -c
       - |
-        ls -a .
-        ls -a ..
-        cat ../texpdf.sh 
-        ../texpdf.sh principal
+        /texpdf.sh principal
 
 
 
@@ -31,4 +29,4 @@ services:
       - /bin/bash
       - -c
       - |
-        ../texpdf.sh ata
+        /texpdf.sh ata

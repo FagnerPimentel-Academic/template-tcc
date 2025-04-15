@@ -1,3 +1,4 @@
+latex/.devcontainer/build/*
 latex/output/*
 !latex/output/principal.pdf
 !latex/output/ficha.pdf
