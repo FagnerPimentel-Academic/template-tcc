@@ -6,7 +6,7 @@ services:
     volumes:
       - ../output:/output
       - ../tex:/tex
-      - ../.devcontainer/build:/build
+      - ./build:/build
     stdin_open: true
     tty: true
     command: 
